@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./dashboard.css";
 import { FaUser, FaFileAlt, FaMoneyBill, FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
-function EmployeeDashboard() {
+function App() {
 
   const [tab, setTab] = useState("details");
   const [sidebarOpen, setSidebarOpen] = useState(true);
@@ -241,4 +241,4 @@ useEffect(() => {
   );
 }
 
-export default EmployeeDashboard;
+export default App;
