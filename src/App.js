@@ -22,7 +22,7 @@ useEffect(() => {
   }, 4000);
 
   return () => clearInterval(interval);
-}, []);
+}, [images.length]);
 
   return (
     <div className="layout">
